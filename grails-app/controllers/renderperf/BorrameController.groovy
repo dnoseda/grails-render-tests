@@ -1,13 +1,13 @@
 package renderperf
 
 class BorrameController {
-
+	SimpleServiceService simpleServiceService
     def index = {
 		render(view:"/vips/borrameView")
 	}
 	
 	def index2 = {
-		render "index2"
+		return [result:simpleServiceService.serviceMethod()]
 	}
 	def index3 = {
 		render "index3"

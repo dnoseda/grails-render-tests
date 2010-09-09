@@ -1,5 +1,5 @@
 <html>
 <body>
-	<g:render template="includedView"/>	
+	<g:include controller="borrame" action="index2"/>	
 </body>
 </html>
