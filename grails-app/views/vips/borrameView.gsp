@@ -1,5 +1,5 @@
 <html>
 <body>
-	<g:include view="borrame/index2.gsp" model="[result:service.serviceMethod()]"/>	
+	<g:render template="_index2" model="[result:service.serviceMethod()]"/>	
 </body>
 </html>
