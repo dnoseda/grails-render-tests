@@ -1,5 +1,5 @@
 <html>
 <body>
-	<g:include view="vips/includedView.gsp"/>	
+	<g:render template="includedView"/>	
 </body>
 </html>
