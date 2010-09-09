@@ -1,5 +1,5 @@
 <html>
 <body>
-	<g:include controller="borrame" action="index2"/>	
+	<g:include view="index2" model="[result:${service.serviceMethod()}]"/>	
 </body>
 </html>

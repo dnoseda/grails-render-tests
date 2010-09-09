@@ -3,7 +3,7 @@ package renderperf
 class BorrameController {
 	SimpleServiceService simpleServiceService
     def index = {
-		render(view:"/vips/borrameView")
+		render(view:"/vips/borrameView",model:[service:simpleServiceService])
 	}
 	
 	def index2 = {
